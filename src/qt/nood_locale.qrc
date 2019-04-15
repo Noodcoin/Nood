@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nood_bg.qm</file>
+        <file alias="de">locale/nood_de.qm</file>
+        <file alias="en">locale/nood_en.qm</file>
+        <file alias="es">locale/nood_es.qm</file>
+        <file alias="fi">locale/nood_fi.qm</file>
+        <file alias="fr">locale/nood_fr.qm</file>
+        <file alias="it">locale/nood_it.qm</file>
+        <file alias="ja">locale/nood_ja.qm</file>
+        <file alias="pl">locale/nood_pl.qm</file>
+        <file alias="pt">locale/nood_pt.qm</file>
+        <file alias="ru">locale/nood_ru.qm</file>
+        <file alias="sk">locale/nood_sk.qm</file>
+        <file alias="sv">locale/nood_sv.qm</file>
+        <file alias="vi">locale/nood_vi.qm</file>
+        <file alias="zh_CN">locale/nood_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nood_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=nood
+Comment=nood P2P Cryptocurrency
+Comment[fr]=nood, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=nood, eşten eşe kriptografik sanal para birimi
+Exec=nood-qt %u
+Terminal=false
+Type=Application
+Icon=nood128
+MimeType=x-scheme-handler/nood;
+Categories=Office;Finance;

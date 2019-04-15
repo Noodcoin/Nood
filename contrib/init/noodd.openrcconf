@@ -1,0 +1,26 @@
+# /etc/conf.d/noodd: config file for /etc/init.d/noodd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nood/nood.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/noodd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/noodd.pid"
+
+# Where to write noodd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/noodd"
+
+# User and group to own noodd process
+#BITCOIND_USER="nood"
+#BITCOIND_GROUP="nood"
+
+# Path to noodd executable
+#BITCOIND_BIN="/usr/bin/noodd"
+
+# Nice value to run noodd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
