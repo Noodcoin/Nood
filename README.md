@@ -84,10 +84,11 @@ Once the source code is ready the build steps are below.
     # If you want to build the Qt GUI:
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
-    git clone https://github.com/nood/nood.git --recursive
+    git clone https://github.com/Noodcoin/Nood.git --recursive
     
-    cd nood
-
+    
+    chmod a+x+w -R Nood/
+    cd Nood
     # Note autogen will prompt to install some more dependencies if needed
     ./autogen.sh
     ./configure 
