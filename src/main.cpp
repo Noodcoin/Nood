@@ -1619,35 +1619,20 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
+
 int64_t GetBlockValue(int nHeight)
 {
-    double nSubsidy = 1 * COIN;
-    double nsubsidy_function = 0;
-    double Xheight = 0;
-    if (nHeight == 1)
-    {
-        nSubsidy = 250000.0 * COIN; // Premine 1% of max supply
-    }
-    else if (nHeight > 1 && nHeight < 1274030) // Sets max block height
-    {
-        Xheight = nHeight * 0.0000038051750381;
-        nsubsidy_function = ((3583.5719028332051*(pow(Xheight,8))) 
-                          - (67959.212902381332*(pow(Xheight,7)))
-                          + (500144.30431838805*(pow(Xheight,6))) 
-                          - (1806581.9194472283*(pow(Xheight,5)))
-                          + (3537339.4754780694*(pow(Xheight,4)))
-                          - (4712758.2800668897*(pow(Xheight,3)))
-                          + (4535015.6408610735*(pow(Xheight,2)))
-                          + (834937.06954081857*Xheight)
-                          + (1000845.7073113875));
-        nSubsidy = ((floor((nsubsidy_function*(1.0/60000.0)*0.33757734955)*100.0))/100.0) * COIN; // our emission curve [no. of coins per block]
-    }
-    else
-    {
-        nSubsidy = 0 * COIN; // Coins cease production
-    }
-
-    return nSubsidy;
+	int64_t nSubsidy = 0;
+	
+	 if (nHeight == 1) {
+        nSubsidy = 1 * COIN;
+   	 } 
+        else if (nHeight == 1) {
+        nSubsidy = 250000 * COIN;   
+     	} else if (nHeight >= 2) {
+        nSubsidy = 5 * COIN;
+        } 
+		 return nSubsidy;
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
