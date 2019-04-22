@@ -127,15 +127,15 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1555326694;
+        genesis.nTime = 1555894932;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1555894932;
+        genesis.nNonce = 32519374;
 		
 		
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000657cf84360b9a2a7bfac461c3aa7a97018857ec5d12983400310d14310a"));
-        assert(genesis.hashMerkleRoot == uint256("0x51072f633a23d0b31f075c1427e30225d3eb4426367517d810717f3b29d2b7c7"));
+        assert(hashGenesisBlock == uint256("0x00000c05bde561599805af9c8645d7fad435f18577049ca78cece8a56c6f8f7e"));
+        assert(genesis.hashMerkleRoot == uint256("0x38ac89566581e16f64b6f20f9b190286e11682e636c722247ed87f9482444b4e"));
 	
        	// New Seed Nodes added 17/02/2019	
 	vSeeds.push_back(CDNSSeedData("34.74.85.190", "34.74.85.190"));  
@@ -204,11 +204,11 @@ public:
         strDeveloperFeePayee = "---";
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1555326694;
-        genesis.nNonce = 31733321;
+        genesis.nTime = 1555894932;
+        genesis.nNonce = 32519374;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000657cf84360b9a2a7bfac461c3aa7a97018857ec5d12983400310d14310a"));
+        assert(hashGenesisBlock == uint256("0x00000c05bde561599805af9c8645d7fad435f18577049ca78cece8a56c6f8f7e"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -269,14 +269,14 @@ public:
         nTargetTimespan = 5 * 60; // nood: 5 minutes
         nTargetSpacing = 1 * 60;  // nood: 1 minute
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1555326694;
+        genesis.nTime = 1555894932;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 31733321;
+        genesis.nNonce = 32519374;
         strDeveloperFeePayee = "---";
 
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000657cf84360b9a2a7bfac461c3aa7a97018857ec5d12983400310d14310a"));
+        assert(hashGenesisBlock == uint256("0x00000c05bde561599805af9c8645d7fad435f18577049ca78cece8a56c6f8f7e"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
