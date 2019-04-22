@@ -93,10 +93,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xd9;
-        pchMessageStart[1] = 0xc0;
-        pchMessageStart[2] = 0xbe;
-        pchMessageStart[3] = 0x6d;
+        pchMessageStart[0] = 0xbe;
+        pchMessageStart[1] = 0x6d;
+        pchMessageStart[2] = 0xd9;
+        pchMessageStart[3] = 0xc0;
         vAlertPubKey = ParseHex("0444d74c0ea8967c7a0457f0ab8532fdd03900377780cb64a83ab8077510805a89eb9100948db395cbf5f0866b36e9697e65c35870134b52b65018a379cf02f035");                        
         nDefaultPort = 21777;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // nood starting difficulty is 1 / 2^12  //20
@@ -116,7 +116,7 @@ public:
         nMaxMoneyOut = 25000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";
 
-        const char* pszTimestamp = "xevan doi inflation new chain, secure and fast transactions asset";
+        const char* pszTimestamp = "xevan new chain, secure and fast transactions asset";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -137,8 +137,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000657cf84360b9a2a7bfac461c3aa7a97018857ec5d12983400310d14310a"));
         assert(genesis.hashMerkleRoot == uint256("0x51072f633a23d0b31f075c1427e30225d3eb4426367517d810717f3b29d2b7c7"));
 	
-       	// New Seed Nodes added 17/02/2019
-        vSeeds.push_back(CDNSSeedData("138.68.104.136", "138.68.104.136"));  	
+       	// New Seed Nodes added 17/02/2019	
 	vSeeds.push_back(CDNSSeedData("34.74.85.190", "34.74.85.190"));  
 	
 	
