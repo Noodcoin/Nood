@@ -144,9 +144,9 @@ public:
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 64);
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 73);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0xAD)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x1E)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 83);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x1E)(0xAD)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x04)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md 1977 0x800007b9
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x07)(0xb9).convert_to_container<std::vector<unsigned char> >();
 
