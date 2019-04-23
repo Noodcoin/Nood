@@ -15,7 +15,7 @@ Nood Coin – A Decentralized Data Sharing Platform, Hosting, and Content Distri
 | Block Time | `120s` |</br>
 | PoW Reward | `5.3 nood` |*</br>
 | Masternode Requirement | `1,000 nood` |</br>
-| Port | `21777` |</br>
+| Port | `27111` |</br>
   
   
 | Block Reward Distribution | </br>

@@ -93,12 +93,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xbe;
-        pchMessageStart[1] = 0x6d;
+        pchMessageStart[0] = 0x4c;
+        pchMessageStart[1] = 0x2c;
         pchMessageStart[2] = 0xd9;
-        pchMessageStart[3] = 0xc0;
+        pchMessageStart[3] = 0xaf;
         vAlertPubKey = ParseHex("0444d74c0ea8967c7a0457f0ab8532fdd03900377780cb64a83ab8077510805a89eb9100948db395cbf5f0866b36e9697e65c35870134b52b65018a379cf02f035");                        
-        nDefaultPort = 21777;
+        nDefaultPort = 27111;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // nood starting difficulty is 1 / 2^12  //20
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -190,7 +190,7 @@ public:
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0x54;
         vAlertPubKey = ParseHex("04401424054d92fa763dade08903e2d91f0386ba9be4e1419445dc69bd62ca4a6ca7ed1827b22d6b399cc0ae800282df68bdc14a2b723d0273d58fe2d9c682ea8c");
-        nDefaultPort = 21777;
+        nDefaultPort = 27111;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;

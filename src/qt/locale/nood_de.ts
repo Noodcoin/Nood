@@ -3757,8 +3757,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"nood Alert\" admin@foo.com</trans
         <translation>Erlaubte Gegenstellen können nicht wegen DoS ausgeschlossen werden und ihre Transaktionen werden immer weitergeleitet, sogar wenn sie schon im Memory-Pool sind. Dies ist z.B. für Gateways nützlich.</translation>
     </message>
     <message>
-        <source>(21777 could be used only on mainnet)</source>
-        <translation>(21777 kann nur im Standarmngoz benutzt werden)</translation>
+        <source>(27111 could be used only on mainnet)</source>
+        <translation>(27111 kann nur im Standarmngoz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4180,8 +4180,8 @@ nood Core wird heruntergefahren.</translation>
         <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
-        <source>(must be 21777 for mainnet)</source>
-        <translation>(muss für Standarmngoz 21777 sein)</translation>
+        <source>(must be 27111 for mainnet)</source>
+        <translation>(muss für Standarmngoz 27111 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

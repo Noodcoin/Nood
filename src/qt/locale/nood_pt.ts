@@ -3654,8 +3654,8 @@ https://www.transifex.com/noodcoin/nood-wallet-translations/</translation>
         <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o nood Core não vai funcionar correctamente.</translation>
     </message>
     <message>
-        <source>(21777 could be used only on mainnet)</source>
-        <translation>(21777 apenas pode ser usado para mainnet)</translation>
+        <source>(27111 could be used only on mainnet)</source>
+        <translation>(27111 apenas pode ser usado para mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4068,8 +4068,8 @@ https://www.transifex.com/noodcoin/nood-wallet-translations/</translation>
         <translation>masternodeprivkey inválida. Por favor reveja a documentação.</translation>
     </message>
     <message>
-        <source>(must be 21777 for mainnet)</source>
-        <translation>(deve ser 21777 para mainnet)</translation>
+        <source>(must be 27111 for mainnet)</source>
+        <translation>(deve ser 27111 para mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

@@ -3758,8 +3758,8 @@ rpcpassword=%s
         <translation>Пиры, внесенные в белый список, не будут подвергаться DoS блокировкам и их транзакции будут ретранслироваться, даже если они уже есть в пуле памяти, что полезно, например, для работы в качестве шлюза</translation>
     </message>
     <message>
-        <source>(21777 could be used only on mainnet)</source>
-        <translation>(21777 можно использовать только в главной сети)</translation>
+        <source>(27111 could be used only on mainnet)</source>
+        <translation>(27111 можно использовать только в главной сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4180,8 +4180,8 @@ rpcpassword=%s
         <translation>Неправильное значение masternodeprivkey. Пожалуйста, ознакомьтесь с документацией.</translation>
     </message>
     <message>
-        <source>(must be 21777 for mainnet)</source>
-        <translation>(должно быть 21777 в главной сети)</translation>
+        <source>(must be 27111 for mainnet)</source>
+        <translation>(должно быть 27111 в главной сети)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

@@ -82,7 +82,7 @@ masternode=1
 
 masternodeprivkey=XXXXXXXXXXXXXXXXXX (paste the key you generated with the command masternode genkey)
 
-masternodeaddr=xxx.xxx.xxx.xxx:21777
+masternodeaddr=xxx.xxx.xxx.xxx:27111
 
 
 close config file.
@@ -97,7 +97,7 @@ masternode.conf
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
 # Example: 
 Quote
-mn1 127.0.0.1:21777 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 127.0.0.1:27111 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
 set up your ip, masternode privkey, and TXID (of the 1000 EMN)
 

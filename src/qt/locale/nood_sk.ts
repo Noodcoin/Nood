@@ -3757,8 +3757,8 @@ napríklad: alertnotify=echo %%s | mail -s "nood Upozornenie" admin@foo.com
         <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
-        <source>(21777 could be used only on mainnet)</source>
-        <translation>(21777 nemôže byť použité pre hlavnú sieť)</translation>
+        <source>(27111 could be used only on mainnet)</source>
+        <translation>(27111 nemôže byť použité pre hlavnú sieť)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4179,8 +4179,8 @@ napríklad: alertnotify=echo %%s | mail -s "nood Upozornenie" admin@foo.com
         <translation>Neplatný masternodeprivkey. Prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
-        <source>(must be 21777 for mainnet)</source>
-        <translation>(pre hlavnú sieť musí byť 21777)</translation>
+        <source>(must be 27111 for mainnet)</source>
+        <translation>(pre hlavnú sieť musí byť 27111)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
