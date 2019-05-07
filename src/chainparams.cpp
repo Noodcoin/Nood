@@ -195,10 +195,10 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 10; // nood: 10 seconds
-        nTargetSpacing = 10;  // nood: 10 seconds
+        nTargetTimespan = 10*6; // nood: 60 seconds
+        nTargetSpacing = 10*6;  // nood: 60 seconds
         nLastPOWBlock = 2000;
-        nMaturity = 2;
+        nMaturity = 15;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 100000000 * COIN;
         strDeveloperFeePayee = "---";
@@ -231,7 +231,7 @@ public:
         fAllowMinDifficultyBlocks = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
